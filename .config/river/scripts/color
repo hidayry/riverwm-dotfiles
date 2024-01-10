@@ -1,0 +1,3 @@
+#!/bin/bash
+
+color=$(hyprpicker) && wl-copy $color && convert -size 100x100 xc:$color /tmp/mycol.png && notify-send --expire-time=100000 -i /tmp/mycol.png "Hyprpicker" $color

@@ -1,0 +1,109 @@
+configuration{
+    modi: "drun";
+    lines: 6;
+    font: "JetBrainsMono Nerd Font 14";
+    show-icons: true;
+    icon-theme: "Tela-circle-manjaro-dark";
+    terminal: "foot";
+    drun-display-format: "{icon} {name}";
+    location: 4;
+    disable-history: false;
+    hide-scrollbar: true;
+    sidebar-mode: true;
+    hover-select:				true;
+	me-select-entry:			"";
+	me-accept-entry:			"MousePrimary";
+}
+
+@theme "catppuccin"
+
+/* Line Responsible For Button Layouts */
+/* BUTTON = FALSE */
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+window {
+    height: 270px;
+    width: 200px;
+    border-radius: 12px;
+    border: 2px;
+    border-color: @border-col-hypr;
+    background-color: @bg-col;
+    x-offset:                    -2%;
+    y-offset:                    0;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+inputbar {
+    children: [prompt];
+    background-color: @bg-col;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+prompt {
+    background-color: @blue;
+    padding: 5px 5px 5px 5px;
+    text-color: @bg-col;
+    border-radius: 6px;
+    font: "JetBrainsMono Nerd Font 11";
+    margin: 5px 0px 0px 5px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+}
+
+entry {
+    padding: 6px 6px 6px 6px;
+    text-color: @fg-col;
+    background-color: @bg-col;
+    placeholder:"Search";
+
+}
+
+listview {
+    padding: 6px 6px 6px 6px;
+    columns: 1;
+    background-color: @bg-col;
+}
+
+element {
+    padding: 6px;
+    background-color: @bg-col;
+    text-color: @fg-col  ;
+}
+
+element-icon {
+    size: 25px;
+}
+
+element selected {
+    background-color:  @blue ;
+    text-color: @selected-col  ;
+    border-radius: 3px;
+}
+
+mode-switcher {
+    spacing: 0;
+  }
+
+button {
+    padding: 10px;
+    background-color: @bg-col-light;
+    text-color: @grey;
+    vertical-align: 0.5; 
+    horizontal-align: 0.5;
+}
+
+button selected {
+  background-color: @bg-col;
+  text-color: @blue;
+}
