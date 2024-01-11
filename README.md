@@ -4,7 +4,7 @@
 
 |    Distro    |                 [Archlinux](https://archlinux.org/)                 |
 | :----------: | :-----------------------------------------------------------------: |
-|      WM      |            [Hyprland](https://github.com/riverwm/river)             |
+|      WM      |            [River](https://github.com/riverwm/river)             |
 |   Terminal   |               [Foot](https://codeberg.org/dnkl/foot)                |
 |    Shell     | [zsh+zap](https://www.zapzsh.org/)-[starship](https://starship.rs/) |
 |   Launcher   |            [Rofi Wayland](https://github.com/lbonn/rofi)            |
