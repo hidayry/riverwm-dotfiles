@@ -4,7 +4,7 @@
 
 |    Distro    |                 [Archlinux](https://archlinux.org/)                 |
 | :----------: | :-----------------------------------------------------------------: |
-|      WM      |            [River](https://github.com/riverwm/river)             |
+|      WM      |              [River](https://github.com/riverwm/river)              |
 |   Terminal   |               [Foot](https://codeberg.org/dnkl/foot)                |
 |    Shell     | [zsh+zap](https://www.zapzsh.org/)-[starship](https://starship.rs/) |
 |   Launcher   |            [Rofi Wayland](https://github.com/lbonn/rofi)            |
@@ -50,7 +50,7 @@ sudo pacman -S --needed river swaybg jq findutils waybar mpd ncmpcpp swayidle wf
 - **aur-packages**
 
 ```sh
-yay -S --needed tela-circle-icon-theme-manjaro tokyonight-gtk-theme-git wl-clipboard-history-git ttf-jetbrains-mono-nerd mpdris2 rofi-lbonn-wayland swaylock-effects nwg-look
+yay -S --needed tela-circle-icon-theme-manjaro tokyonight-gtk-theme-git wl-clipboard-history-git ttf-jetbrains-mono-nerd mpdris2 rofi-lbonn-wayland swaylock-effects nwg-look rivercarro
 ```
 
 - **zap zsh**
